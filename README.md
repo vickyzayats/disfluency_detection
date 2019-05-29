@@ -1,6 +1,18 @@
 # Disfluency detection code and pretrained model
 
 The code to disfluency detection models: text-only baseline and late-fusion models.
+The model configurations and parameters are specified in configs.py file.
+Pretrained models will appear soon.
+
+Training:
+```
+python train_disfl_with_attention_residual.py configs/attention_ms_word_level_total_phone_dur_normal_dist_text_only.py  num_feat 0
+```
+
+Inference:
+```
+python extract_probs_updated.py configs/attention_ms_word_level_total_phone_dur_normal_dist_text_only.py num_feat 0 model.h5
+```
 
 # Citation
 If you use the code in your research, please cite:
