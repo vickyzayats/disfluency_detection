@@ -1,6 +1,6 @@
 # Disfluency detection code and pretrained model
 
-The code and models will be posted soon (exp May 2019)
+The code to disfluency detection models: text-only baseline and late-fusion models.
 
 # Citation
 If you use the code in your research, please cite:
